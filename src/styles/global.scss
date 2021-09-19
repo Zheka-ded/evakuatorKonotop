@@ -1,0 +1,25 @@
+$xs: 0;
+$sm: 576px;
+$md: 768px;
+$lg: 992px;
+$xl: 1200px;
+$xxl: 1400px;
+
+$cyan-primary: $cyan-900;
+
+//.section {
+//  min-height: 100vh;
+//}
+
+.logo {
+  display: inline-block;
+  background-image: url("../img/logo.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  &--header {
+    width: 72px;
+    height: 38px;
+  }
+}

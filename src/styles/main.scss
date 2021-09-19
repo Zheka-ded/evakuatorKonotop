@@ -1,0 +1,10 @@
+@import "./reset.scss";
+
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+@import "./global.scss";
+
+@import "../blocks/header/header.scss";
+@import "../blocks/intro/intro.scss";
+@import "../blocks/services/services.scss";
+@import "../blocks/order/order.scss";
