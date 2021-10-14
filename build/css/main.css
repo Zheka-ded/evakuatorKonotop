@@ -9213,8 +9213,43 @@ textarea.form-control-lg {
   background-position: center;
   background-repeat: no-repeat; }
   .logo--header {
-    width: 72px;
-    height: 38px; }
+    width: 4.5rem;
+    height: 2.5rem; }
+
+.content-items {
+  padding-top: 4rem;
+  padding-bottom: 4rem; }
+  .content-items__item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+    .content-items__item + .content-items__item {
+      margin-top: 4rem; }
+    .content-items__item:last-child {
+      margin-bottom: 2rem; }
+
+.button {
+  display: inline-block;
+  font-size: 1.5rem;
+  text-decoration: none;
+  border-radius: 1rem;
+  padding: 0.5rem 2rem 0.66667rem;
+  font-weight: 500;
+  -webkit-transition: 0.3s all ease;
+  -o-transition: 0.3s all ease;
+  transition: 0.3s all ease; }
+  .button:hover {
+    -webkit-transform: scale(1.03);
+        -ms-transform: scale(1.03);
+            transform: scale(1.03);
+    color: #dc3545; }
+  .button--white {
+    background: white; }
+  .button--text-danger {
+    color: #dc3545; }
 
 .intro {
   position: relative;
@@ -9231,35 +9266,3 @@ textarea.form-control-lg {
     background-color: #032830;
     opacity: 0.8;
     z-index: -1; }
-
-.intro-content {
-  padding-top: 4rem;
-  padding-bottom: 4rem; }
-  .intro-content__item {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center; }
-    .intro-content__item + .intro-content__item {
-      margin-top: 4rem; }
-    .intro-content__item:last-child {
-      margin-bottom: 2rem; }
-  .intro-content__call {
-    display: inline-block;
-    font-size: 1.5rem;
-    text-decoration: none;
-    background: white;
-    border-radius: 1rem;
-    padding: 0.5rem 2rem 0.66667rem;
-    color: #dc3545;
-    font-weight: 500;
-    -webkit-transition: 0.3s all ease;
-    -o-transition: 0.3s all ease;
-    transition: 0.3s all ease; }
-    .intro-content__call:hover {
-      -webkit-transform: scale(1.03);
-          -ms-transform: scale(1.03);
-              transform: scale(1.03);
-      color: #dc3545; }

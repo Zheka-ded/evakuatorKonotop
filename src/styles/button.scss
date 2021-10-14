@@ -1,0 +1,22 @@
+.button {
+  display: inline-block;
+  font-size: $spacer * 1.5;
+  text-decoration: none;
+  border-radius: $spacer;
+  padding: $spacer / 2 $spacer * 2 $spacer / 1.5;
+  font-weight: 500;
+  transition: 0.3s all ease;
+
+  &:hover {
+    transform: scale(1.03);
+    color: $danger;
+  }
+
+  &--white {
+    background: white;
+  }
+
+  &--text-danger {
+    color: $danger;
+  }
+}

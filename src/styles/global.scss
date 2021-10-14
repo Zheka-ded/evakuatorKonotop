@@ -7,10 +7,6 @@ $xxl: 1400px;
 
 $cyan-primary: $cyan-900;
 
-//.section {
-//  min-height: 100vh;
-//}
-
 .logo {
   display: inline-block;
   background-image: url("../img/logo.png");
@@ -19,7 +15,36 @@ $cyan-primary: $cyan-900;
   background-repeat: no-repeat;
 
   &--header {
-    width: 72px;
-    height: 38px;
+    width: $spacer * 4.5;
+    height: $spacer * 2.5;
   }
+}
+
+
+
+.content-items {
+  padding-top: $spacer * 4;
+  padding-bottom: $spacer * 4;
+
+  &__item {
+    display: flex;
+    justify-content: center;
+
+    & + & {
+      margin-top: $spacer * 4;
+    }
+
+    &:last-child {
+      margin-bottom: $spacer * 2;
+    }
+  }
+
+  //@media (min-width: $md) {
+  //  &__item {
+  //    & + & {
+  //      margin-top: $spacer * 4;
+  //    }
+  //  }
+  //}
+
 }

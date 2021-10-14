@@ -4,7 +4,6 @@
   background-position: 30% 50%;
   background-repeat: no-repeat;
   background-size: cover;
-  //height: 100vh;
   z-index: 0;
 
   &:before {
@@ -13,53 +12,7 @@
     width: 100%;
     height: 100%;
     background-color: $cyan-primary;
-    //background-color: #1a1e21;
-    //background-color: $white;
     opacity: 0.8;
     z-index: -1;
   }
-}
-
-.intro-content {
-  padding-top: $spacer * 4;
-  padding-bottom: $spacer * 4;
-
-  &__item {
-    display: flex;
-    justify-content: center;
-
-    & + & {
-      margin-top: $spacer * 4;
-    }
-
-    &:last-child {
-      margin-bottom: $spacer * 2;
-    }
-  }
-
-  &__call {
-    display: inline-block;
-    font-size: $spacer * 1.5;
-    text-decoration: none;
-    background: white;
-    border-radius: $spacer;
-    padding: $spacer / 2 $spacer * 2 $spacer / 1.5;
-    color: $danger;
-    font-weight: 500;
-    transition: 0.3s all ease;
-
-    &:hover {
-      transform: scale(1.03);
-      color: $danger;
-    }
-  }
-
-  //@media (min-width: $md) {
-  //  &__item {
-  //    & + & {
-  //      margin-top: $spacer * 4;
-  //    }
-  //  }
-  //}
-
 }
