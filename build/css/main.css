@@ -9231,6 +9231,14 @@ textarea.form-control-lg {
     .content-items__item:last-child {
       margin-bottom: 2rem; }
 
+.hidden {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 0.001px;
+  width: 0.001px;
+  font-size: 0.001px; }
+
 .button {
   display: inline-block;
   font-size: 1.5rem;

@@ -20,8 +20,6 @@ $cyan-primary: $cyan-900;
   }
 }
 
-
-
 .content-items {
   padding-top: $spacer * 4;
   padding-bottom: $spacer * 4;
@@ -39,12 +37,13 @@ $cyan-primary: $cyan-900;
     }
   }
 
-  //@media (min-width: $md) {
-  //  &__item {
-  //    & + & {
-  //      margin-top: $spacer * 4;
-  //    }
-  //  }
-  //}
+}
 
+.hidden{
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 0.001px;
+  width: 0.001px;
+  font-size: 0.001px;
 }

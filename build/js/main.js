@@ -11,4 +11,3 @@ document.querySelectorAll('.js-nav-link').forEach(elem => {
     }
   })
 })
-
